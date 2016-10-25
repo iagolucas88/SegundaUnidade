@@ -1,38 +1,20 @@
-#include <iostream>
 #include "Screen.h"
 #include "FiguraGeometrica.h"
 #include "Reta.h"
 #include "Retangulo.h"
+#include "Circulo.h"
 #include <vector>
 
 using namespace std;
 
 int main(){
-    //dim x y
     Screen d(20,20);
-
-    //brush X
-    d.setDesenho('X');
-
-    //line x0 y0 x1 y1
-    Reta r(0,0,18,18);
-
-    //rectangle x0 y0 largura altura
-    //Retangulo r(0,0,7,11);
-
-    //circle x0 y0 raio fillmode
-    //
-
-    //Posicao do(s) Ponto(s)
+    //Reta r(0,0,18,18);
+    //Retangulo r(2,2,15,15);
+    Circulo r(10,10,7,1);
     //r.posic();
-
-    //Desenha Matriz
-    d.desenhar();
-
-    //Desenha Figura
+    d.setDesenho('X');
     r.draw(d);
-
-    //cout << r;
+    d.desenhar();
     return 0;
 }
-
