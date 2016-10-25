@@ -10,7 +10,6 @@ class FiguraGeometrica
         virtual void posic()=0;
         virtual void draw(Screen&t)=0;
 
-
     private:
 
 };
