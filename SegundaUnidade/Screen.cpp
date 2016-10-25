@@ -61,8 +61,3 @@ void Screen::desenhar(){
         }cout << endl;
     }
 }
-/*
-friend ostream& operator<<(ostream &os, const Screen &t){
-    os << t.desenhar();
-    return os;
-}*/
