@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1477180286 source:c:\users\thall\desktop\segundoprojeto\src\screen.cpp
+	"Screen.h"
+	"Reta.h"
+	"Point.h"
+	<iostream>
+	<vector>
+
+1477180457 c:\users\thall\desktop\segundoprojeto\include\screen.h
+	<vector>
+	"Point.h"
+
+1477287017 source:c:\users\thall\desktop\segundoprojeto\main.cpp
+	<iostream>
+	"Screen.h"
+	"FiguraGeometrica.h"
+	"Reta.h"
+	"Retangulo.h"
+	"Circulo.h"
+	<vector>
+
+1477180355 source:c:\users\thall\desktop\segundoprojeto\src\point.cpp
+	"Point.h"
+	<iostream>
+	<cmath>
+
+1477180493 c:\users\thall\desktop\segundoprojeto\include\point.h
+
+1477180366 source:c:\users\thall\desktop\segundoprojeto\src\figurageometrica.cpp
+	"FiguraGeometrica.h"
+
+1477180493 c:\users\thall\desktop\segundoprojeto\include\figurageometrica.h
+	"Screen.h"
+
+1477180320 source:c:\users\thall\desktop\segundoprojeto\src\reta.cpp
+	<iostream>
+	<cmath>
+	"Reta.h"
+	"Point.h"
+	"Screen.h"
+
+1477180435 c:\users\thall\desktop\segundoprojeto\include\reta.h
+	"FiguraGeometrica.h"
+	"Point.h"
+	"Screen.h"
+
+1477180282 source:c:\users\thall\desktop\segundoprojeto\src\retangulo.cpp
+	"Retangulo.h"
+	"FiguraGeometrica.h"
+	"Point.h"
+	"Screen.h"
+	"Reta.h"
+
+1477180445 c:\users\thall\desktop\segundoprojeto\include\retangulo.h
+	"Point.h"
+	"Screen.h"
+	"Reta.h"
+
+1477286994 c:\users\thall\desktop\segundoprojeto\include\circulo.h
+	"Point.h"
+	"Screen.h"
+
+1477287109 source:c:\users\thall\desktop\segundoprojeto\src\circulo.cpp
+	<iostream>
+	"Circulo.h"
+	"FiguraGeometrica.h"
+	"Point.h"
+	"Screen.h"
+	<cmath>
+
